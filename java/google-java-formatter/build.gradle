@@ -1,0 +1,6 @@
+formatCodeToGoogle(type: Jar)
+{
+    exec {
+        commandLine 'sh', '-c','./../formatGitDiffCode.sh'
+    }
+}
